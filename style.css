@@ -1,0 +1,566 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("C:\xampp\htdocs\PhoneBook\bg.jpeg");
+    background: #45957a;
+    /*#285c76;*/
+}
+
+
+/* LOgin area setting*/
+
+.loginbox {
+    position: absolute;
+    width: 400px;
+    left: 35%;
+    top: 15%;
+    border: 1px solid #faffbd;
+    text-align: center;
+    padding-bottom: 14px;
+    color: #83d0f2;
+}
+
+.passbox {
+    position: absolute;
+    width: 400px;
+    left: 32%;
+    top: 30%;
+    border: 1px solid #faffbd;
+    text-align: center;
+    padding-bottom: 14px;
+    color: #83d0f2;
+}
+
+.passbox lable {
+    float: left;
+    width: 101px;
+    padding-top: 16px;
+    margin-left: 4px;
+}
+
+.passbox h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #83d0f2;
+    font-size: 25px;
+}
+
+.passbox input[type="text"],
+.passbox input[type="password"] {
+    width: 240px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 8px;
+    border: none;
+    padding: 11px 5px;
+    border-radius: 2px;
+}
+
+.passbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin: auto 0;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #00d1b2;
+    border: none;
+    color: navajowhite;
+    border-radius: 2px;
+}
+
+.loginbox h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #83d0f2;
+    font-size: 25px;
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="password"] {
+    width: 240px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 8px;
+    border: none;
+    padding: 11px 5px;
+    border-radius: 2px;
+}
+
+.loginbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin: auto 0;
+    margin-left: 66px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #00d1b2;
+    border: none;
+    color: navajowhite;
+    border-radius: 2px;
+}
+
+a#reg {
+    text-decoration: none;
+    color: #faffbd;
+}
+
+
+/*Regisration area setting*/
+
+.registbox {
+    position: absolute;
+    width: 400px;
+    left: 35%;
+    top: 15%;
+    border: 1px solid gray;
+    text-align: center;
+    padding-bottom: 14px;
+    border: 1px solid #faffbd;
+}
+
+.registbox h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #83d0f2;
+    font-size: 25px;
+}
+
+p.acount {
+    color: #83d0f2;
+}
+
+.registbox input[type="text"],
+.registbox input[type="password"] {
+    width: 240px;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin: 8px;
+    border: none;
+    border-radius: 2px;
+}
+
+.registbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 8px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #00d1b2;
+    border: none;
+    color: navajowhite;
+    border-radius: 2px;
+}
+
+.registbox label {
+    float: left;
+    width: 20px;
+    margin-left: 14px;
+    margin-top: 12px;
+    color: #83d0f2;
+}
+
+p.addusererror,
+p.aderrorMsg {
+    text-align: center;
+    border: 1px solid darkolivegreen;
+    background-color: red;
+    color: cornsilk;
+    width: 285px;
+    position: absolute;
+    left: 36%;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 6px;
+    top: 20%;
+}
+
+p.errorMsg {
+    text-align: center;
+    border: 1px solid darkolivegreen;
+    background-color: red;
+    color: cornsilk;
+    width: 285px;
+    position: absolute;
+    left: 39%;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 6px;
+}
+
+p.loginerror {
+    text-align: center;
+    border: 1px solid darkolivegreen;
+    background-color: red;
+    color: cornsilk;
+    width: 285px;
+    position: absolute;
+    left: 39%;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 6px;
+}
+
+
+/*Dashboard page setting*/
+
+div#main {
+    position: absolute;
+    left: 25%;
+    padding: 5px;
+}
+
+#main h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #83d0f2;
+}
+
+p.loged span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p.loged {
+    text-align: center;
+    font-size: 16px;
+    color: blanchedalmond;
+}
+
+.totalcontact p {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 58%;
+    border: 4px solid lightblue;
+    padding: 58px;
+    color: cornsilk;
+    font-size: 26px;
+}
+
+.totalcontact p span {
+    font-size: 34px;
+}
+
+h2.chead {
+    margin-left: 36px;
+    text-transform: capitalize;
+    background: darkolivegreen;
+    padding: 6px 7px;
+    width: 415px;
+    color: darkkhaki;
+    border-radius: 2px 19px white;
+    box-shadow: 8px greenyellow;
+    border: 1px dashed darkorange;
+}
+
+p.cpara {
+    margin-left: 46px;
+    font-size: 20px;
+    color: palegoldenrod;
+}
+
+
+/*(Add user page setting*/
+
+p.view {
+    margin: 0 auto;
+}
+
+p.count {
+    background: darkorange;
+    float: right;
+    margin-top: -38px;
+    width: 20%;
+    border-radius: 7px;
+    color: white;
+    padding: 1px 5px;
+    border: none;
+    margin-right: -11px;
+}
+
+p.cpasssuc {
+    text-align: center;
+    border: 1px solid darkolivegreen;
+    background-color: green;
+    color: cornsilk;
+    width: 285px;
+    position: absolute;
+    left: 36%;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 6px;
+    top: 20%;
+}
+
+p.cpass {
+    text-align: center;
+    border: 1px solid darkolivegreen;
+    background-color: red;
+    color: cornsilk;
+    width: 285px;
+    position: absolute;
+    left: 36%;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 6px;
+    top: 20%;
+}
+
+p.addsucces {
+    text-align: center;
+    /* margin-top: 36px; */
+    border: 1px solid darkolivegreen;
+    background-color: green;
+    color: cornsilk;
+    width: 252px;
+    position: absolute;
+    left: 37%;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 19px;
+    top: 21%;
+}
+
+p.succes {
+    text-align: center;
+    /* margin-top: 36px; */
+    border: 1px solid darkolivegreen;
+    background-color: green;
+    color: cornsilk;
+    width: 252px;
+    position: absolute;
+    left: 30%;
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 19px;
+}
+
+p.regsucces {
+    text-align: center;
+    /* margin-top: 36px; */
+    border: 1px solid darkolivegreen;
+    background-color: green;
+    color: cornsilk;
+    width: 252px;
+    position: absolute;
+    left: 40%;
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 19px;
+}
+
+.addusrbox {
+    position: absolute;
+    width: 400px;
+    left: 32%;
+    top: 30%;
+    border: 1px solid #faffbd;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.addusrbox h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #83d0f2;
+    font-size: 25px;
+}
+
+.addusrbox input[type="text"],
+.addusrbox input[type="password"] {
+    width: 240px;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin: 8px;
+    border-radius: 2px;
+    border: none;
+}
+
+.addusrbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 8px;
+    margin: auto 0;
+    border-radius: 2px;
+    padding-left: 20;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #00d1b2;
+    border: none;
+    color: navajowhite;
+    border-radius: 2px;
+    margin-left: 22px
+}
+
+.addusrbox label {
+    float: left;
+    width: 20px;
+    margin-left: 14px;
+    margin-top: 12px;
+    color: #83d0f2;
+}
+
+p.prof {
+    text-align: center;
+    color: honeydew;
+    font-size: 17px;
+}
+
+
+/* view user page setting*/
+
+table.viewtabl {
+    width: 100%;
+    background: darkgray;
+    border-radius: 2px;
+    box-shadow: 2px 2px darkgrey;
+}
+
+.viewtabl td {
+    border: 1px solid lightgray;
+    width: 104px;
+    text-align: center;
+}
+
+table.viewtabl td.ev a#del,
+a#edt {
+    background: honeydew;
+    padding: 1px 2px;
+    text-align: center;
+    /* width: 25px; */
+    border-radius: 2px;
+    text-decoration: none;
+    margin: 2px 2px;
+    color: lightseagreen;
+}
+
+table.viewtabl td.ev a#del:hover,
+table.viewtabl td.ev a#edt:hover {
+    background: blanchedalmond;
+}
+
+
+/* change password page setting */
+
+.loginbox lable {
+    float: left;
+    width: 101px;
+    padding-top: 16px;
+    margin-left: 4px;
+}
+
+.menu {
+    border: none;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu ul {
+    background: #3ab4a6;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+    -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+    box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+}
+
+.menu li {
+    float: left;
+    padding: 0px 0px 0px 15px;
+}
+
+.menu li a {
+    color: #000;
+    display: block;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: #C60;
+    color: #FFFFFF;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+}
+
+.menu ul li:hover a {
+    background: #C60;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu li ul {
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    width: 200px;
+    z-index: 200;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li li {
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background: #F93;
+    /*this is where the rounded corners for the dropdown disappears*/
+}
+
+.menu li:hover li a {
+    background: none;
+}
+
+.menu li ul a {
+    display: block;
+    height: 50px;
+    font-size: 12px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+}
+
+.menu li ul a:hover,
+.menu li ul li:hover a {
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #C60;
+    -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+}
+
+table td label {
+    color: #83d0f2;
+}
